@@ -1,0 +1,35 @@
+safe: false
+permalink: /posts/:title.html
+exclude:
+  - README.md
+
+name: BLOGMe
+host: localhost
+desc: personal site,record my life.
+
+custom:
+    category:
+        default: 写作与思考
+        another: 计算机科学
+    categories:
+      - name:  default
+        title: 写作与思考
+        
+
+      - name:  another
+        title: 计算机科学
+
+    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
+
+meta:
+    author:
+        name: Gaozhibang
+        email: 859737172@qq.com
+        disqus: gaozhibang              # Disqus缩略标识
+        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
+        github: kingsiphone                 # GitHub账号
+        gravatar: 1cd8c12591616d8c22aaa624f8c07834  # Gravatar头像标识
+
+    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
+   
+    
