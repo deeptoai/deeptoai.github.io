@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106956486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106956486-1');
+</script>
+
+
 <meta charset="utf-8" />
 <meta name="author" content="{{ site.meta.author.name }}" />
 <meta name="keywords" content="{{ page.tags | join: ',' }}" />
