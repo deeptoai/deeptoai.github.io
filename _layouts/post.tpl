@@ -16,6 +16,11 @@ class: page-type-post
 	<!--<p class="permalink">永久链接：<a href="{{ permaurl }}">{{ permaurl }}</a></p>-->
 </article>
 
+
+<span id="busuanzi_container_page_pv">
+  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+</span>
+
 <div id="disqus_thread"></div>
 <script>
 
