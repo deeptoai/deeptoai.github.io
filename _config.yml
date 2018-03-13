@@ -3,9 +3,9 @@ permalink: /posts/:title.html
 exclude:
   - README.md
 
-name: BLOGMe
+name: BLOG
 host: localhost
-desc: personal site,record my life.
+desc: 奋斗的青年.
 
 custom:
     category:
